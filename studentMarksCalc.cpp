@@ -13,15 +13,15 @@ private:
 public:
     void getdata1()
     {
-        cout << "enter roll number:";
+        cout << "Enter roll number: ";
         cin >> roll_no;
-        cout << "enter name:";
+        cout << "Enter name: ";
         cin >> name;
     }
     void display1()
     {
-        cout << "rollnumber is:" << roll_no << endl;
-        cout << "name is" << name << endl;
+        cout << "roll number is  " << roll_no << endl;
+        cout << "name is " << name << endl;
     }
 };
 class marks : public Student
@@ -33,11 +33,11 @@ private:
 public:
     void getdata2()
     {
-        cout << "enter first mark:";
+        cout << "Enter first mark:";
         cin >> m1;
-        cout << "enter second mark:";
+        cout << "Enter second mark:";
         cin >> m2;
-        cout << "enter third mark:";
+        cout << "Enter third mark:";
         cin >> m3;
     }
     void display2()
@@ -50,6 +50,7 @@ public:
 };
 int main()
 {
+    cout << endl;
     marks m1;
     m1.getdata1();
     m1.getdata2();
