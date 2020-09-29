@@ -1,7 +1,7 @@
 /*
-    problem : Convert hexadecimal numbers into IP addresses
+    problem : Convert hexadecimal numbers Color codes into RGB color values
     input: #ffffff
-    output: 255.255.255.255
+    output: 255,255,255
 */
 #include <iostream>
 #include <string>
